@@ -172,7 +172,7 @@ article {
 
 .article-title {
   text-wrap: wrap;
-  font-size: clamp(1rem, 1.5vw + 0.5rem, var(--small-heading-font-size));
+  font-size: clamp(1rem, 1vw + 0.5rem, var(--small-heading-font-size));
   font-weight: var(--semibold-weight);
 }
 
