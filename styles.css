@@ -124,7 +124,7 @@ header {
 }
 
 h1 {
-  font-size: var(--heading-font-size);
+  font-size: clamp(1.5rem, 2vw + 1rem, var(--heading-font-size));
   font-weight: var(--semibold-weight);
   text-wrap: wrap;
 }
@@ -172,7 +172,7 @@ article {
 
 .article-title {
   text-wrap: wrap;
-  font-size: var(--small-heading-font-size);
+  font-size: clamp(1rem, 1.5vw + 0.5rem, var(--small-heading-font-size));
   font-weight: var(--semibold-weight);
 }
 
